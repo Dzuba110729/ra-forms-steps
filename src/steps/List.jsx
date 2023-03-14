@@ -18,8 +18,8 @@ const items = list.map((item) =>
     <p>{item.date}</p>
     <p>{item.distance}</p>
     <div>
-      <button type="date" className='item-edit' data-id={item.id}>✎</button> 
-      <button type="date" className='item-del' data-id={item.id}>✘</button> 
+      <button className='item-edit' data-id={item.id}>✎</button> 
+      <button className='item-del' data-id={item.id}>✘</button> 
     </div>
   </li>);
 
